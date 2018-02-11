@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Myproject.PageObjectModel.core.Core_Basic">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.Myproject.PageObjectModel.core.Core_Basic -->
+      <class name="testCase.Login_TC">
+        <methods>
+          <include name="Login_user"/>
+        </methods>
+      </class> <!-- testCase.Login_TC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

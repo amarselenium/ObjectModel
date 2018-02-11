@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16759" started-at="2018-02-09T15:48:04Z" finished-at="2018-02-09T15:48:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16759" started-at="2018-02-09T15:48:04Z" finished-at="2018-02-09T15:48:21Z">
+      <class name="com.Myproject.PageObjectModel.core.Core_Basic">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.Myproject.PageObjectModel.core.Core_Basic@464bee09]" name="beforetest" is-config="true" duration-ms="1" started-at="2018-02-09T21:18:04Z" finished-at="2018-02-09T21:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Myproject.PageObjectModel.core.Core_Basic@464bee09]" name="launchBrowser" duration-ms="4450" started-at="2018-02-09T21:18:04Z" finished-at="2018-02-09T21:18:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- com.Myproject.PageObjectModel.core.Core_Basic -->
+      <class name="testCase.Login_TC">
+        <test-method status="PASS" signature="Login_user()[pri:0, instance:testCase.Login_TC@6eebc39e]" name="Login_user" duration-ms="8720" started-at="2018-02-09T21:18:09Z" finished-at="2018-02-09T21:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_user -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testCase.Login_TC@6eebc39e]" name="aftertest" is-config="true" duration-ms="3565" started-at="2018-02-09T21:18:18Z" finished-at="2018-02-09T21:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testCase.Login_TC -->
+      <class name="reports.ExtentReport">
+        <test-method status="PASS" signature="Report()[pri:0, instance:reports.ExtentReport@204f30ec]" name="Report" is-config="true" duration-ms="298" started-at="2018-02-09T21:18:04Z" finished-at="2018-02-09T21:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+        <test-method status="PASS" signature="Report_Close()[pri:0, instance:reports.ExtentReport@204f30ec]" name="Report_Close" is-config="true" duration-ms="7" started-at="2018-02-09T21:18:21Z" finished-at="2018-02-09T21:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report_Close -->
+      </class> <!-- reports.ExtentReport -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

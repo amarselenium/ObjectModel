@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke_Test]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Log_in(failed)">
+    <classes>
+      <class name="testCase.Login_TC">
+        <methods>
+          <include name="Login_user"/>
+        </methods>
+      </class> <!-- testCase.Login_TC -->
+    </classes>
+  </test> <!-- Log_in(failed) -->
+</suite> <!-- Failed suite [Smoke_Test] -->
