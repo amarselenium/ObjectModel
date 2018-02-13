@@ -17,7 +17,7 @@ public class ExtentReport {
 	@BeforeSuite
 	public void Report()
 	{
-		extent = new ExtentReports("C:\\Users\\Amaresh\\Desktop\\extentreports.htm", true);
+		extent = new ExtentReports("C:\\Users\\Amaresh\\Desktop\\Test_reports\\extentreports.htm",true);
 		extent.loadConfig(new File("C:\\Users\\Amaresh\\Desktop\\extent-config.xml"));
 	    test=extent.startTest("smoke test");
 	}

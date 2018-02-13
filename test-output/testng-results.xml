@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16593" started-at="2018-02-11T14:08:28Z" finished-at="2018-02-11T14:08:44Z">
+  <suite name="Suite" duration-ms="12654" started-at="2018-02-11T18:42:51Z" finished-at="2018-02-11T18:43:03Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16593" started-at="2018-02-11T14:08:28Z" finished-at="2018-02-11T14:08:44Z">
+    <test name="Test" duration-ms="12654" started-at="2018-02-11T18:42:51Z" finished-at="2018-02-11T18:43:03Z">
+      <class name="testCase.Pagetitle_TC">
+        <test-method status="PASS" signature="pagetitle_verify()[pri:0, instance:testCase.Pagetitle_TC@3abbfa04]" name="pagetitle_verify" duration-ms="16" started-at="2018-02-12T00:13:02Z" finished-at="2018-02-12T00:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitle_verify -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testCase.Pagetitle_TC@3abbfa04]" name="aftertest" is-config="true" duration-ms="1314" started-at="2018-02-12T00:13:02Z" finished-at="2018-02-12T00:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testCase.Pagetitle_TC -->
+      <class name="testCase.Login_TC">
+        <test-method status="PASS" signature="Login_user()[pri:0, instance:testCase.Login_TC@13deb50e]" name="Login_user" duration-ms="7639" started-at="2018-02-12T00:12:54Z" finished-at="2018-02-12T00:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_user -->
+      </class> <!-- testCase.Login_TC -->
       <class name="com.Myproject.PageObjectModel.core.Core_Basic">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.Myproject.PageObjectModel.core.Core_Basic@464bee09]" name="beforetest" is-config="true" duration-ms="0" started-at="2018-02-11T19:38:28Z" finished-at="2018-02-11T19:38:28Z">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.Myproject.PageObjectModel.core.Core_Basic@42e26948]" name="beforetest" is-config="true" duration-ms="1" started-at="2018-02-12T00:12:51Z" finished-at="2018-02-12T00:12:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Myproject.PageObjectModel.core.Core_Basic@464bee09]" name="launchBrowser" duration-ms="6338" started-at="2018-02-11T19:38:28Z" finished-at="2018-02-11T19:38:34Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Myproject.PageObjectModel.core.Core_Basic@42e26948]" name="launchBrowser" duration-ms="3661" started-at="2018-02-12T00:12:51Z" finished-at="2018-02-12T00:12:54Z">
           <params>
             <param index="0">
               <value>
@@ -23,22 +39,12 @@
           </reporter-output>
         </test-method> <!-- launchBrowser -->
       </class> <!-- com.Myproject.PageObjectModel.core.Core_Basic -->
-      <class name="testCase.Login_TC">
-        <test-method status="PASS" signature="Login_user()[pri:0, instance:testCase.Login_TC@6eebc39e]" name="Login_user" duration-ms="6954" started-at="2018-02-11T19:38:34Z" finished-at="2018-02-11T19:38:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_user -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:testCase.Login_TC@6eebc39e]" name="aftertest" is-config="true" duration-ms="3272" started-at="2018-02-11T19:38:41Z" finished-at="2018-02-11T19:38:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- testCase.Login_TC -->
       <class name="reports.ExtentReport">
-        <test-method status="PASS" signature="Report()[pri:0, instance:reports.ExtentReport@204f30ec]" name="Report" is-config="true" duration-ms="338" started-at="2018-02-11T19:38:27Z" finished-at="2018-02-11T19:38:28Z">
+        <test-method status="PASS" signature="Report()[pri:0, instance:reports.ExtentReport@239963d8]" name="Report" is-config="true" duration-ms="179" started-at="2018-02-12T00:12:51Z" finished-at="2018-02-12T00:12:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Report -->
-        <test-method status="PASS" signature="Report_Close()[pri:0, instance:reports.ExtentReport@204f30ec]" name="Report_Close" is-config="true" duration-ms="4" started-at="2018-02-11T19:38:44Z" finished-at="2018-02-11T19:38:44Z">
+        <test-method status="PASS" signature="Report_Close()[pri:0, instance:reports.ExtentReport@239963d8]" name="Report_Close" is-config="true" duration-ms="2" started-at="2018-02-12T00:13:03Z" finished-at="2018-02-12T00:13:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Report_Close -->

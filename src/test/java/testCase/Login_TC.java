@@ -43,47 +43,9 @@ public class Login_TC extends Log{
 		Login.Usertextbox().sendKeys(Readproperties.readproperty("Username"));
 		Login.password_textbox().sendKeys(Readproperties.readproperty("Password"));
 		Login.login_button().click();
-		
-		String actual_page_title = "OrangeHRM";
-		
-		String expected_title = Login.wd.getTitle();
-	
-		try {
-			 Assert.assertEquals(actual_page_title,expected_title);
-			 logger2.info("Pagetitle has successfully verified");
-			 ExtentReport.test.log(LogStatus.PASS, "Pagetitle Verified");
-			 
-		   } 
-		catch (Exception e) 
-		   {
-			 
-			   Screnshot.getscreenshot(Login.wd,"C:\\Users\\Amaresh\\Desktop\\test2.png");
 				
-			
-	     	}
-		
-		
-		
-   
-			
-			//
-		
-		//ExtentReport.test.log(LogStatus.PASS, "Pagetitle has successfully verified");
 	   }
-	
-	
 
-    	@AfterTest
-    	public void aftertest()
-    	{
-    		Login.wd.close();
-    	    Login.wd.quit();
-    		ExtentReport.test.log(LogStatus.INFO, "browser closed successfully");
-    		ExtentReport.extent.endTest(ExtentReport.test);
-    		ExtentReport.extent.flush();
-    		ExtentReport.extent.close();
-    	}
-        
     }
     
     

@@ -9,6 +9,7 @@
   <class name="reports.ExtentReport"/>
   <class name="com.Myproject.PageObjectModel.core.Core_Basic"/>
   <class name="testCase.Login_TC"/>
+  <class name="testCase.Pagetitle_TC"/>
   
  </classes>
   
